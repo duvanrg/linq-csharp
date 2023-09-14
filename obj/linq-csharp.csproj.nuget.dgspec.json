@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {}
+    "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {
+    "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
+        "projectUniqueName": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
         "projectName": "linq-csharp",
-        "projectPath": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
+        "projectPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
         "packagesPath": "C:\\Users\\APM02-45\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\obj\\",
+        "outputPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APM02-45\\AppData\\Roaming\\NuGet\\NuGet.Config"

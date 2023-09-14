@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
+      "projectUniqueName": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
       "projectName": "linq-csharp",
-      "projectPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
+      "projectPath": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
       "packagesPath": "C:\\Users\\APM02-45\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\obj\\",
+      "outputPath": "c:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APM02-45\\AppData\\Roaming\\NuGet\\NuGet.Config"
