@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {}
+    "/home/skylab-112/Documents/review/linq-csharp/linq-csharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj": {
+    "/home/skylab-112/Documents/review/linq-csharp/linq-csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
+        "projectUniqueName": "/home/skylab-112/Documents/review/linq-csharp/linq-csharp.csproj",
         "projectName": "linq-csharp",
-        "projectPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\linq-csharp.csproj",
-        "packagesPath": "C:\\Users\\APM02-45\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-45\\Documents\\Apolo-duban\\Jholver\\C-sharp\\linq-csharp\\obj\\",
+        "projectPath": "/home/skylab-112/Documents/review/linq-csharp/linq-csharp.csproj",
+        "packagesPath": "/home/skylab-112/.nuget/packages/",
+        "outputPath": "/home/skylab-112/Documents/review/linq-csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-45\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/skylab-112/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }

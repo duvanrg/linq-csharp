@@ -7,7 +7,7 @@
         Console.WriteLine(args2[0]);
         LinqQueries queries = new LinqQueries();
         
-        ImprimirValores(queries.publish2005());
+        ImprimirValores(queries.first3books());
         // Console.WriteLine(queries.TrueStatus() ? "Todos los libros tienen Status" : "Almenos uno de los libros no tiene Status");
     }
 

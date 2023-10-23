@@ -45,12 +45,63 @@ public class LinqQueries
         Console.WriteLine("No Existen libros publicados en el 2005");
         Console.ReadKey();
         return new List<Book>();
+    }
+    public IEnumerable<Book> containPy()
+    {
+        if (lstBooks.Any(book => book.Categories.Contains("Python")))
+        {
+            return from book in lstBooks where book.Categories.Contains("Python") select book;
+        }
+        Console.WriteLine("No Existen libros de la categoria python");
+        Console.ReadKey();
+        return new List<Book>();
+    }
 
+    public IEnumerable<Book> orderJava()
+    {
+        if (lstBooks.Any(book => book.Categories.Contains("Java")))
+        {
+            var java = from book in lstBooks where book.Categories.Contains("Java") select book;
+            return java.OrderBy(book => book.Title);
+        }
+        Console.WriteLine("No Existen libros de la categoria Java");
+        Console.ReadKey();
+        return new List<Book>();
+    }
+    public IEnumerable<Book> orderDescending450()
+    {
+        return lstBooks.Where(book => book.PageCount > 450).OrderByDescending(book => book.PageCount);
+    }
+    public IEnumerable<Book> first3books()
+    {
+        return lstBooks.Where(
+            book => book.Categories.Contains("Java") 
+        ).OrderByDescending(book => book.PublishedDate).Take(3);
+    }
+    public IEnumerable<Book> books4and5()
+    {
+        return lstBooks.Where(
+            book => book.PageCount > 400
+        ).Take(4).Skip(2);
+    }
+    public IEnumerable<Book> selectTitleAndPages()
+    {
+        return lstBooks.Take(3).Select(book => new Book{Title = book.Title, PageCount = book.PageCount});
+    }
+
+    public int GetBookCounts( )
+    {
+        return lstBooks.Where(book => book.PageCount >= 200 && book.PageCount <= 500).Count();
+    }
+    public long GetBookLongCounts( )
+    {
+        return lstBooks.Where(book => book.PageCount >= 200 && book.PageCount <= 500).LongCount();
     }
     public bool Truepublish2005()
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
         return lstBooks.Any(book => book.PublishedDate.Year == 2005);
+        
     }
 
 }
