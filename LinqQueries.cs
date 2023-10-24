@@ -97,6 +97,39 @@ public class LinqQueries
     {
         return lstBooks.Where(book => book.PageCount >= 200 && book.PageCount <= 500).LongCount();
     }
+    public DateTime selectMinDate()
+    {
+        return lstBooks.Min(book => book.publishedDate);
+        //return lstBooks.where(book => book.Min(book.publishedDate));
+    }
+
+    public int selectMaxPage()
+    {
+        return lstBooks.Max(book => book.PageCount);
+        //return lstBooks.where(book => book.Max(book.PageCount));
+    }
+
+    public Book selectBetweenMore0 ()
+    {
+        return lstBooks.Where(book => book.PageCount > 0).MinBy(myBook => myBook.PageCount);
+    }
+
+    public Book selectMaxDate()
+    {
+        return lstBooks.MaxBy(book => book.PublishedDate);
+    }
+
+    public int selectSumPages()
+    {
+        return lstBooks.where(book => book.pageCount >= 0 && book.pageCount <= 500).Sum(myBook => myBook.pageCount);
+    }
+
+    public IEnumerable<Book> getDateUp2015()
+    {
+        //return lstBooks.Where(book => new book {if(book.publishedDate.Year > 2015) Title = book.Title});
+        return lstBooks.Where(book => book.publishedDate.Year > 2015).Agreggate(myBook => myBook.Title);
+    }
+
     public bool Truepublish2005()
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
